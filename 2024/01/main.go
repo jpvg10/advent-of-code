@@ -23,7 +23,7 @@ func part1(left []int, right []int) {
 		}
 	}
 
-	fmt.Println(totalDiff)
+	fmt.Println("Part 1:", totalDiff)
 }
 
 func part2(left []int, right []int) {
@@ -43,7 +43,7 @@ func part2(left []int, right []int) {
 		}
 	}
 
-	fmt.Println(score)
+	fmt.Println("Part 2:", score)
 }
 
 func main() {
@@ -64,6 +64,6 @@ func main() {
 		right = append(right, r)
 	}
 
-	// part1(left, right)
+	part1(left, right)
 	part2(left, right)
 }

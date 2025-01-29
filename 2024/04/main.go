@@ -51,7 +51,7 @@ func part1(W [][]rune) {
 		}
 	}
 
-	fmt.Println(xmasCount)
+	fmt.Println("Part 1:", xmasCount)
 }
 
 func part2(W [][]rune) {
@@ -76,7 +76,7 @@ func part2(W [][]rune) {
 		}
 	}
 
-	fmt.Println(xmasCount)
+	fmt.Println("Part 2:", xmasCount)
 }
 
 func main() {

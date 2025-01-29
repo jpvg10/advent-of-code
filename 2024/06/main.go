@@ -38,7 +38,7 @@ func part1(M [][]rune, m int, n int, gI int, gJ int) {
 		gI, gJ = nextGI, nextGJ
 	}
 
-	fmt.Println(len(visited))
+	fmt.Println("Part 1:", len(visited))
 }
 
 func part2(M [][]rune, m int, n int, gI int, gJ int) {
@@ -82,7 +82,7 @@ func part2(M [][]rune, m int, n int, gI int, gJ int) {
 		gI, gJ = nextGI, nextGJ
 	}
 
-	fmt.Println(loops)
+	fmt.Println("Part 2:", loops)
 }
 
 func testLoop(M [][]rune, m int, n int, gI int, gJ int, obstacleI int, obstacleJ int, gDirection int) bool {
@@ -148,6 +148,6 @@ func main() {
 		}
 	}
 
-	// part1(M, m, n, gI, gJ)
+	part1(M, m, n, gI, gJ)
 	part2(M, m, n, gI, gJ)
 }
